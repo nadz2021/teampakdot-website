@@ -4,14 +4,21 @@ module.exports = {
   theme: {
     fontFamily: {
       montserrat: ['Montserrat', 'sans-serif'],
-      roboto: ['Roboto', 'serif'],
+      roboto: ['Roboto', 'sans-serif'],
     },
     colors: {
       transparent: 'transparent',
       white: '#FFFFFF',
       black: '#000000',
-      primary: '#6DC0B3',
-      secondary: '#E3BB7A',
+      red: '#E83845',
+      gray: '#8C92AC',
+      primary: '#003049',
+      secondary: '#D62828',
+      accent: '#F77F00',
+      text: '#333333',
+    },
+    aspectRatio: {
+      '4/3': '4 / 3',
     },
     extend: {},
   },
